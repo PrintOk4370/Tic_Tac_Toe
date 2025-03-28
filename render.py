@@ -1,5 +1,3 @@
-
-
 def render(board):
     print("       0\t1\t2\t")
     print("   _________________________")
