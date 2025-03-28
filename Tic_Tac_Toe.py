@@ -11,8 +11,6 @@ board[1][1] = 'O'
 
 render(board)
 
-move = get_move()
-
-move_made = make_move(board, move, player)
+move_made = make_move(board, get_move(), player)
 
 render(board)

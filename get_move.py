@@ -7,5 +7,5 @@ def get_move():
                 print("Invalid move, choose something between 0 and 2. \n")
                 continue
             return[Xmove,Ymove]
-        except: 
+        except ValueError: 
             print("Invalid move!!! Please enter numbers between 0 and 2 only. \n\n")
