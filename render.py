@@ -8,7 +8,6 @@ def render(board):
             row.append("|")
         print(" ".join(row))
 
-    #print("   _____________________________")
     print("  ```````````````````````````````")
 
 
