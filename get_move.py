@@ -6,6 +6,6 @@ def get_move():
             if Xmove >= 3 or Ymove >= 3 or Xmove < 0 or Ymove < 0:
                 print("Invalid move, choose something between 0 and 2. \n")
                 continue
-            return[Xmove,Ymove]
+            return[Ymove,Xmove]
         except ValueError: 
             print("Invalid move!!! Please enter numbers between 0 and 2 only. \n\n")

@@ -22,16 +22,17 @@ def get_winner(board):
 
     rows.append(diagonal)
     rows.append(reverse_diagonal)
-        
+    
+    player = None
+
     for line in rows: 
         if line[0] == line[1] == line[2]:
             win = True
             player = line[0]
-            print(player)
-            break
+            return(player)
     
     
 
-    return(player)
+    return "None   "
 
 #get_winner(board_1)
